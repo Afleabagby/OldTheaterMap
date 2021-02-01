@@ -21,25 +21,28 @@
     <li tabindex="3">
       <div>
         <a>
-          <h2>劇場榮座（西門外街）</h2>
-          <p>【譯註】位於西門町，戰後（1945）改建為萬國戲院。</p>
+          <h2>昔日大舞台</h2>
+          <p>大舞台1911年1月22日落成，戰時遭炸毀，修建後又恢復營業。</p>
+            <p>台南歌仔戲團「丹桂社」於1925年在大舞台演出，</p>
+          <p>被認為是台灣第一個進入戲院內台的商業登台。</p>
         </a>
       </div>
     </li>
     <li tabindex="4">
       <div>
         <a>
-          <h2>寄席芳野亭（新起橫街）</h2>
-          <p>【譯註】位於今日萬華區昆明街以東的內江街及隆昌街一帶。</p>
-          <p>芳野亭屬日本式的「寄席」（曲藝場、說書場）劇場。</p>
+          <h2>楊梅座（楊梅劇場）</h2>
+          <p>1943年楊梅座（楊梅劇場）日の出劇團鍊成作業紀念。</p>
         </a>
       </div>
     </li>
     <li tabindex="5">
       <div>
         <a>
-          <h2>劇場朝日座（撫台街）</h2>
-          <p>【譯註】位於今日中山堂以北的延平南路上。</p>
+          <h2>日治時期的臺北榮町</h2>
+          <p>榮町是當時台北最繁華的區域，因而有「台北銀座」之稱。</p>
+          <p>台灣第一家百貨公司「菊元百貨店」於1932年（昭和7年）在榮町落成。</p>
+          <p>1935年（昭和10年）設立台北市、同時也是台灣第一座紅綠燈。</p>
         </a>
       </div>
     </li>
@@ -47,7 +50,7 @@
       <div>
         <a>
           <h2>國際館</h2>
-          <p>國際館是日本東寶映畫的直營戲院，可以看到電影看板下方有間名為「東寶」的餐廳；</p>
+          <p>1920年12月29日，位於今台北市漢中街116號的「新世界館」落成，是當時台灣最大的電影院。</p>
           <p>當日上映的電影是《陸軍航空戰記～緬甸篇》，為日本航空紀錄片的代表作，片長91分鐘，</p>
           <p>由日本映畫社製作。</p>
         </a>
@@ -141,9 +144,9 @@ h1 {
     // Background images
     li:nth-child(1) { background-image:url('https://storystudio.tw/wp-content/uploads/2020/11/handelaars-eylandt-yancheng-5-1024x692.jpg'); }
     li:nth-child(2) { background-image:url('https://i0.zi.org.tw/kunputw/2020/06/1591263943-78f8e938a42476d737f05d1d375a6719-1170x912.png'); }
-    li:nth-child(3) { background-image:url('http://www.tonyhuang39.com/tony1092/taipei_p039a.jpg'); }
-    li:nth-child(4) { background-image:url('http://www.tonyhuang39.com/tony1092/taipei_p039b.jpg'); }
-    li:nth-child(5) { background-image:url('http://www.tonyhuang39.com/tony1092/taipei_p039c.jpg'); }
+    li:nth-child(3) { background-image:url('https://cdntwrunning.biji.co/800_ex_5507e0562606c.png'); }
+    li:nth-child(4) { background-image:url('https://img.ltn.com.tw/Upload/talk/page/800/2018/05/19/phpIZGeGQ.jpg'); }
+    li:nth-child(5) { background-image:url('https://upload.wikimedia.org/wikipedia/commons/8/82/%E8%87%BA%E5%8C%97%E6%A6%AE%E7%94%BA%E9%80%9A.jpg'); }
     li:nth-child(6) { background-image:url('https://imgs.gvm.com.tw/upload/gallery/20190515/%E5%A4%A7%E5%B9%B4%E5%88%9D%E4%BA%8C%E7%9A%84%E8%A5%BF%E9%96%80%E7%94%BA%201961%20vs%202018.jpg'); }
 
     &:hover li,
