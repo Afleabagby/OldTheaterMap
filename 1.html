@@ -1,0 +1,13 @@
+const result = await theaters.create({
+  name: req.body.name,
+  location: req.body.location,
+  precision: req.body.precision,
+  datestart: req.body.datesatrt,
+  dateend: req.body.dateend,
+  dateback: req.body.dateback,
+  year: req.body.year,
+  description: req.body.description,
+  state: req.body.state,
+  provider: req.body.provider,
+  email: req.body.email
+})
