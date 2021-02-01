@@ -1,0 +1,54 @@
+/* For the "inset" look only */
+/* html {
+  overflow: auto;
+} */
+
+*{
+  letter-spacing:normal;
+  word-spacing:normal;
+}
+
+.text-body-1{
+  line-height: 180% !important;
+}
+
+.text-body-2{
+  line-height:24px !important;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(93, 93, 93, 0.2);
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(93, 93, 93, 0.6);
+}
+
+#menubarlink h1 {
+  text-decoration: none;
+  color: #356859 !important;
+}
+
+h1{
+  text-decoration: none;
+  color: #356859 !important;
+}
+
+#rightreserved{
+  color:rgb(54, 53, 53);
+}
