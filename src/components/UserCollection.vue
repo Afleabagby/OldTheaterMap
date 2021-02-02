@@ -52,7 +52,7 @@
           <!-- 打開的編輯框 -->
             <template v-slot:top>
               <v-spacer></v-spacer>
-              <v-dialog v-model="dialogOpen" max-width="40%" >
+              <v-dialog v-model="dialogOpen" max-width="40%" scrollable>
                 <v-card class="amber lighten-5 pa-5">
                   <v-card-title class="display-1 pa-12 text-center d-flex flex-column justify-center align-center">{{ dialogItem.title }}</v-card-title>
                   <v-card-text class="d-flex flex-column">
