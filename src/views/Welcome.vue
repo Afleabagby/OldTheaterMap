@@ -2,7 +2,10 @@
 <v-app>
   <v-container fluid class="container-fluid fill-height" id="welcomebg">
     <div class="text-center" id="enter-button">
-      <v-btn to='/home'>進入首頁</v-btn>
+      <v-btn to='/home'
+      rounded
+      large
+      color="brown lighten-5"><v-icon>mdi-home-import-outline</v-icon>進入首頁</v-btn>
     </div>
   </v-container>
 </v-app>
