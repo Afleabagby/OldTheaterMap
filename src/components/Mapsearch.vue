@@ -132,7 +132,7 @@
             </v-icon>
           </v-btn>
         </template>
-        <template v-slot:item.collections="{ item }" v-if="user.id.length > 0">
+        <template v-slot:item.collections="{ item }">
           <v-btn icon>
             <v-icon
               small
@@ -223,8 +223,12 @@ export default {
       // dialog: false,
       dialogOpen: false,
       // 給dialog內容用
-      dialogItem: {},
-      headers: [
+      dialogItem: {}
+    }
+  },
+  computed: {
+    headers () {
+      const headers = [
         {
           text: '名稱',
           align: 'start',
@@ -236,17 +240,18 @@ export default {
           align: 'center',
           sortable: false,
           value: 'details'
-        },
-        {
+        }
+      ]
+      if (this.user.id.length > 0) {
+        headers.push({
           text: '收藏',
           align: 'center',
           sortable: false,
           value: 'collections'
-        }
-      ]
-    }
-  },
-  computed: {
+        })
+      }
+      return headers
+    },
     urlsearch () {
       return this.$route.query
     },
