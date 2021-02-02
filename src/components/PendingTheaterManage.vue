@@ -14,7 +14,7 @@
         >
         <template v-slot:top>
             <v-spacer></v-spacer>
-            <v-dialog v-model="dialogOpen" max-width="40%" cols="12" >
+            <v-dialog v-model="dialogOpen" max-width="40%" cols="12" scrollable>
               <v-card class="amber lighten-5 pa-10">
                 <v-card-title class="display-2 text-center d-flex flex-column justify-center align-center"></v-card-title>
                 <v-card-text class="d-flex flex-column">
