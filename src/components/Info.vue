@@ -120,6 +120,10 @@ export default {
         {
           title: '昭和6年勝山吉作《臺灣紹介最新寫真集》',
           link: 'https://collections.nmth.gov.tw/CollectionContent.aspx?a=132&rno=2001.008.0007'
+        },
+        {
+          title: '台南筆記',
+          link: 'https://tainan.biji.co/news/detail/3043/%E6%97%A5%E6%93%9A%E5%8F%B0%E5%8D%97%E5%9B%9B%E5%A4%A7%E9%9B%BB%E5%BD%B1%E9%99%A2'
         }
       ],
       contact1: [
