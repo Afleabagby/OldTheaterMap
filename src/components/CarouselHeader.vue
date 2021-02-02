@@ -1,10 +1,12 @@
 <template>
-<vue-marquee style="height:500px" direction="left" :showProgress="false" class="mt-10 align-center">
-  <vue-marquee-slide v-for="(item, i) in carousels" :key="i" id="marqueeimg">
-    <img :src="item.src" height="480px" width="800" :alt="item.title">
-    <video src="../assets/marquee/grey.mp4" autoplay muted loop></video>
-  </vue-marquee-slide>
-</vue-marquee>
+<transition name="fade">
+  <vue-marquee style="height:500px" direction="left" :showProgress="false" class="mt-10 align-center">
+    <vue-marquee-slide v-for="(item, i) in carousels" :key="i" id="marqueeimg">
+      <img :src="item.src" height="480px" width="800" :alt="item.title">
+      <video v-if="show" src="../assets/marquee/grey.mp4" autoplay muted loop></video>
+    </vue-marquee-slide>
+  </vue-marquee>
+</transition>
 </template>
 <style>
 #marqueeimg video{
@@ -17,6 +19,13 @@
   object-fit:cover;
   mix-blend-mode:lighten;
 }
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
 </style>
 <script>
 import { Marquee, Slide } from 'vue-marquee-component'
@@ -28,6 +37,7 @@ export default {
   },
   data () {
     return {
+      show: true,
       carousels: [
         {
           title: '新築落成せる臺南宮古座',
