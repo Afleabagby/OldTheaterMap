@@ -49,7 +49,7 @@
                   </v-card-text>
                   <v-card-actions>
                     <v-spacer></v-spacer>
-                    <v-btn color="brown darken-1" text @click="closeDialog">關閉視窗</v-btn>
+                    <v-btn color="brown darken-1" outlined text @click="closeDialog">關閉視窗</v-btn>
                     <v-spacer></v-spacer>
                   </v-card-actions>
                 </v-card>
